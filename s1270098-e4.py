@@ -1,8 +1,13 @@
+
 import random
 
 l = ["Heads", "Tails"]
 head = 0
 tail = 0
+
+print('Who are you?')
+name = input('> ')
+print('Hello, ' + name + '!')
 
 print("Tossing a coin...")
 for i in range(3):
@@ -15,6 +20,6 @@ for i in range(3):
 print("Heads: {}, Tails: {}".format(head,tail))
 
 if head > tail:
-    print("You won!")
+    print(name + " won!")
 else:
-    print("You lost!")
+    print(name + " lost!")

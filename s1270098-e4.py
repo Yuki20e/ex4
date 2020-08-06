@@ -13,3 +13,8 @@ for i in range(3):
     else:
         tail += 1
 print("Heads: {}, Tails: {}".format(head,tail))
+
+if head > tail:
+    print("You won!")
+else:
+    print("You lost!")
